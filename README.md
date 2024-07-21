@@ -58,9 +58,32 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
-## Support
+## Estrutura do projeto
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
+````md
+    src/
+    |-- database/
+    |   |-- prisma.service.ts
+    |-- links/
+    |   |-- dto/
+    |   |   |-- createLink.dto.ts
+    |   |   |-- updateLink.dto.ts
+    |   |   |-- link.dto.ts
+    |   |
+    |   |-- entities/
+    |   |   |-- link.entity.ts 
+    |   |-- link.controller.ts
+    |   |-- link.service.ts
+    |
+    |-- prisma/
+    |   |-- migrations
+    |   |-- dev.db
+    |   |-- schema.prisma
+    |-- app.controller.ts
+    |-- app.module.ts
+    |-- main.ts
+    
+```
 
 ## Stay in touch
 
