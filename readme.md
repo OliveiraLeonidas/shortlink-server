@@ -17,7 +17,7 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-This project is being created to practice using NestJS. I decided to recreate a project that was originally built with Node.js, but now utilizing NestJS concepts. The new project includes additional features such as login, authorization for users and admins, and also involves creating a frontend.
+This project is being created to practice using NestJS. I decided to recreate a project that was originally built with Node.js, but now utilizing NestJS concepts. The new project includes additional features such as login, authorization for users, and also involves creating a frontend.
 
 ## TODO
 
