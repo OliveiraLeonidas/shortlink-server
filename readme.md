@@ -48,11 +48,7 @@ This project is being created to practice using NestJS. I decided to recreate a 
 
 ```bash
   npm install
-
-## Installation
-
-```bash
-  npm install
+  npx prisma generate
 ```
 
 ## Running the app
